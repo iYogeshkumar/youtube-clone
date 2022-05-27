@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <div id="first">
+        <div id="fbar">
+            <i class="fa fa-bars bars" aria-hidden="true"></i>
+        </div>
+        <div id="youlogo">
+          <img
+            src="https://www.logo.wine/a/logo/YouTube/YouTube-White-Full-Color-Dark-Background-Logo.wine.svg"/>
+        </div>
+      </div>
+      <div id="second">
+        <div id="input">
+            <form>
+                <input  type="text" id="srch" placeholder="Search" />
+            </form>
+        </div>
+        <div onclick="gosearch()" id="search_logo">
+            <i class="fa fa-search glass" aria-hidden="true"></i>
+        </div>
+        <div id="mic">
+            <i class="fa fa-microphone mic" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div id="third">
+          <div class="endbar"><i class="fa fa-video-camera" aria-hidden="true"></i></div>
+          <div class="endbar"><i class="fa fa-th" aria-hidden="true"></i></div>
+          <div class="endbar"><i class="fa fa-bell-o" aria-hidden="true"></i></div>
+          <div class="endbar" id="profile">Y</div>
+        
+      </div>
+    </div>
+    <div id="search_result_div"></div>
+  </body>
+</html>
+<script src="./index.js"></script>
